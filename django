@@ -1,0 +1,7 @@
+jango-admin.py startproject HelloWorld
+python manage.py runserver
+python manage.py startapp TestModel
+python manage.py makemigrations TestModel
+
+python manage.py migrate TestModel
+
